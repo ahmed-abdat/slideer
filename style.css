@@ -100,7 +100,11 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 /* container has scrollbar */
 
-.container { padding: 0 15px; }
+.container { padding: 0 15px; margin-top: 5.45rem;}
+
+@media (max-width : 767px){
+  .container {margin-top: 8rem;}
+}
 
 .has-scrollbar { padding-bottom: 5px; }
 
